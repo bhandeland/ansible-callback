@@ -1,0 +1,7 @@
+---
+- hosts: localhost
+  vars:
+    ticketid: 123456
+  tasks:
+    - name: ping self
+      ping:
